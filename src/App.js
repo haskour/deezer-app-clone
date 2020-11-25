@@ -1,9 +1,9 @@
 import "./assets/tailwind.css"
+import Main from "./components/Main";
 function App() {
   return (
     <div className="App">
-        <div className="w-1/2 h-24 mx-auto mt-20 shadow-2xl">
-        </div>
+        <Main></Main>
     </div>
   );
 }
