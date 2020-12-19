@@ -12,7 +12,7 @@ export default function MediaPlayer() {
                     </li>
                     <li>
                         <button className="p-3 rounded-full">
-                            <svg className="h-6 w-6" focusable="false" viewBox="0 0 12 12" aria-hidden="true"><path fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M2.5.5v11l9-5.5z"></path></svg>
+                            <svg className="h-6 w-6" focusable="false" viewBox="0 0 12 12" aria-hidden="true"><path fillRule="evenodd" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M2.5.5v11l9-5.5z"></path></svg>
                         </button>
                     </li>
                     <li>
@@ -32,10 +32,10 @@ export default function MediaPlayer() {
                         </div>
                         <div className="flex items-center">
                             <button className="p-3 rounded-full">
-                                <svg stroke="#000" focusable="false" height="1em" width="1em" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 1.5v9M1.5 6h9" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+                                <svg stroke="#000" focusable="false" height="1em" width="1em" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 1.5v9M1.5 6h9" fillRule="evenodd" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5"></path></svg>
                             </button>
                             <button className="p-3 rounded-full">
-                                <svg stroke="#000" focusable="false" height="1em" width="1em" viewBox="0 0 12 12" aria-hidden="true"><path class="svg-path" fill="none" stroke-width="1.2" d="M6 10.77a26.815 26.815 0 0 0 2.595-2.087c.996-.913 1.78-1.8 2.267-2.612.356-.594.538-1.124.538-1.571 0-1.734-1.207-2.9-2.65-2.9-.616 0-1.17.229-1.656.619a3.006 3.006 0 0 0-.595.614L6 3.582l-.5-.75a3.006 3.006 0 0 0-.593-.613C4.42 1.829 3.867 1.6 3.25 1.6 1.807 1.6.6 2.766.6 4.5c0 .447.182.977.538 1.571.488.812 1.271 1.699 2.267 2.612A26.815 26.815 0 0 0 6 10.77z"></path></svg>
+                                <svg stroke="#000" focusable="false" height="1em" width="1em" viewBox="0 0 12 12" aria-hidden="true"><path className="svg-path" fill="none" strokeWidth="1.2" d="M6 10.77a26.815 26.815 0 0 0 2.595-2.087c.996-.913 1.78-1.8 2.267-2.612.356-.594.538-1.124.538-1.571 0-1.734-1.207-2.9-2.65-2.9-.616 0-1.17.229-1.656.619a3.006 3.006 0 0 0-.595.614L6 3.582l-.5-.75a3.006 3.006 0 0 0-.593-.613C4.42 1.829 3.867 1.6 3.25 1.6 1.807 1.6.6 2.766.6 4.5c0 .447.182.977.538 1.571.488.812 1.271 1.699 2.267 2.612A26.815 26.815 0 0 0 6 10.77z"></path></svg>
                             </button>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ export default function MediaPlayer() {
                         <button className="p-2" type="button" aria-label="Turn on Shuffle"><svg focusable="false" height="1em" width="1em" viewBox="0 0 12 12" aria-hidden="true"><path d="M9.333 9.214h-.666C6.826 9.214 5.333 7.775 5.333 6c0-1.066-.894-1.929-2-1.929H.683C.298 4.071 0 3.784 0 3.43c0-.356.298-.643.667-.729.137 0 2.65.01 2.666 0 1.841.086 3.334 1.525 3.334 3.3 0 1.065.896 1.929 2 1.929h3c.185 0 .333.143.333.321v.321L9.333 10.5V9.214zm-.666-5.143c-.367 0-.708.103-1.004.27a4.497 4.497 0 0 0-.672-1.104c.493-.28 1.062-.451 1.709-.537.013.03.51 0 .6 0V1.5L12 3.429v.321a.327.327 0 0 1-.333.321h-3zM3.333 7.93c.369 0 .709-.103 1.004-.27.168.404.4.767.672 1.104-.493.28-1.062.451-1.676.537-.018-.011-2.435 0-2.666 0C.298 9.214 0 8.927 0 8.571c0-.355.298-.642.667-.642h2.666z"></path></svg></button>
                     </li>
                     <li className="ml-1">
-                        <button className="p-2" type="button"><svg focusable="false" height="1em" width="1em" viewBox="0 0 12 12" aria-hidden="true"><g fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"><path d="M3 4.5H.5v3H3l2.5 2v-7z"></path><path fill="none" d="M9 2.5c2 1.933 2 5.067 0 7m-1.5-5c.976.829.976 2.171 0 3"></path></g></svg></button>
+                        <button className="p-2" type="button"><svg focusable="false" height="1em" width="1em" viewBox="0 0 12 12" aria-hidden="true"><g fillRule="evenodd" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"><path d="M3 4.5H.5v3H3l2.5 2v-7z"></path><path fill="none" d="M9 2.5c2 1.933 2 5.067 0 7m-1.5-5c.976.829.976 2.171 0 3"></path></g></svg></button>
                     </li>
                     <li className="ml-1">
                         <button className="p-2" type="button" aria-haspopup="true" aria-expanded="false" aria-label="Audio"><svg focusable="false" height="1em" width="1em" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.585 9H.5a.5.5 0 1 0 0 1h2.085a1.5 1.5 0 0 0 2.83 0H11.5a.5.5 0 1 0 0-1H5.415a1.5 1.5 0 0 0-2.83 0zm5.5-3H.5a.5.5 0 1 0 0 1h7.585a1.5 1.5 0 0 0 2.83 0h.585a.5.5 0 1 0 0-1h-.585a1.5 1.5 0 0 0-2.83 0zm-6.5-3H.5a.5.5 0 1 0 0 1h1.085a1.5 1.5 0 0 0 2.83 0H11.5a.5.5 0 1 0 0-1H4.415a1.5 1.5 0 0 0-2.83 0z"></path></svg></button>
