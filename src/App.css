@@ -1,1 +1,17 @@
-@import './assets/tailwind.css'
+@import './assets/tailwind.css';
+
+.sidebar-nav-list--active {
+    color: #ef5466;
+    position: relative;
+}
+.sidebar-nav-list--active::before {
+    content: '';
+    position: absolute;
+    height: 24px;
+    width: 4px;
+    background: #ef5466;
+    left: 0;
+}
+.sidebar-nav-list--active svg {
+    fill: #ef5466;
+}

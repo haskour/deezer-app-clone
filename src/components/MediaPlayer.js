@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function MediaPlayer() {
     return (
-        <section style={MediaPlayerStyle} className="border-t border-gray-2 fixed bottom-0 left-0 right-0 flex items-center">
+        <section style={MediaPlayerStyle} className="border-t border-gray-2 fixed bottom-0 left-0 right-0 flex items-center z-20 bg-white">
             <div className="player-controls">
                 <ul className="flex items-center">
                     <li>

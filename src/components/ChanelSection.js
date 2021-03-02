@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function ChanelSection() {
+export default function ChanelSection(props) {
     return (
         <section className="w-full">
             <div className="max-w-screen-lg p-6 mx-auto flex justify-between">
-                <h2 className="text-xl font-bold">Made for you</h2>
+                <h2 className="text-xl font-bold">{props.title}</h2>
                 <div className="flex flex-wrap">
                     <button className="p-1">
                         <svg className="opacity-25" focusable="false" height="16" width="16" viewBox="0 0 12 12" aria-hidden="true"><path d="M4.7 6l4.5-4.4a.9.9 0 0 0 0-1.3.8.8 0 0 0-1.3 0L2.7 5.4a.9.9 0 0 0 0 1.2l5.2 5.1a.9.9 0 0 0 1.3 0 .9.9 0 0 0 0-1.3z"></path></svg>
@@ -14,7 +14,7 @@ export default function ChanelSection() {
                     </button>
                 </div>
             </div>
-            <div className="max-w-screen-lg px-6 mx-auto">
+            <div className="max-w-screen-lg px-6 mx-auto pb-6">
                 <div className="flex justify-between -mr-8">
                     <article className="w-1/4 pr-8">
                         <div className="relative shadow-md">
