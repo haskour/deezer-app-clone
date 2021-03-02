@@ -8,7 +8,7 @@ export default function ChanelSection() {
           Improve your recommendations by selecting your favourite artists.
         </p>
 
-        <a href="#" style={{ borderRadius: 3 }}
+        <a href="/" style={{ borderRadius: 3 }}
           className="inline-block py-2 px-3 bg-primary text-white text-xs font-bold mt-6 font-sm cursor-pointer">
           Add artists
         </a>
