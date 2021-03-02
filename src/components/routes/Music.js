@@ -4,7 +4,7 @@ import AddFavoritArtist from "../AddFavoritArtist";
 export default function MusicRoute() {
     return (
         <div>
-            <ChanelSection title="Made for you"></ChanelSection>
+            <ChanelSection data="" title="Made for you"></ChanelSection>
             <AddFavoritArtist></AddFavoritArtist>
             <ChanelSection title="Playlists you'll love"></ChanelSection>
         </div>
