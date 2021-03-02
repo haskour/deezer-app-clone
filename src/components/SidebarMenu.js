@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-    Link,
     NavLink
   } from "react-router-dom";
 export default function SidebarMenu() {
@@ -77,7 +76,4 @@ const subMenuItemStyle = {
     padding: '0 12px 0 52px',
     display: 'inline-block',
     height: 36
-}
-const activeLink = {
-    color: '#ef5466'
 }
