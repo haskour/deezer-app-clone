@@ -21,7 +21,9 @@ module.exports = {
             dark: '#32323d',
             blue: 'rgb(45, 150, 200)',
             'blue-hover': 'rgb(3, 96, 138)',
-            white: '#fff'
+            white: '#fff',
+            facebook: '#3c5a99',
+            apple: '#191922'
         },
         fontFamily: {
             sans: ["'Open Sans'", 'sans-serif'],

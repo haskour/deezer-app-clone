@@ -7,7 +7,7 @@ export default function ChanelSection(props) {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
-        "https://api.deezer.com/chart"
+        "http://localhost:3000/v1/chart"
       );
       const limitFour = result.data.playlists.data.slice(0,4)
       setPlaylists(limitFour);
